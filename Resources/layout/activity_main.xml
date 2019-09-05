@@ -29,4 +29,73 @@
         android:layout_margin="@dimen/fab_margin"
         app:srcCompat="@android:drawable/ic_dialog_email" />
 
+
+  <TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marinTop="40dp"
+    android:id="@+id/txtCity"
+    android:textStyle="bold"
+    android:textSize="36sp"
+    android:text=""
+    android:gravity="center"
+    />
+
+  <TextView
+  android:layout_width="match_parent"
+  android:layout_height="wrap_content"
+  android:id="@+id/txtLastUpdate"
+  android:textStyle="bold"
+  android:textSize="18sp"
+  android:text=""
+  android:gravity="center"
+    />
+
+  <ImageView
+    android:layout_width="100dp"
+    android:layout_height="100dp"
+    android:id="@+id/imageView"
+    android:layout_gravity="center"
+    />
+
+  <TextView
+  android:layout_width="match_parent"
+  android:layout_height="wrap_content"
+  android:id="@+id/txtDescription"
+  android:textStyle="bold"
+  android:textSize="30sp"
+  android:text=""
+  android:gravity="center"
+    />
+  <TextView
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:id="@+id/txtHumidity"
+android:textStyle="bold"
+android:textSize="30sp"
+android:text=""
+android:gravity="center"
+    />
+
+  <TextView
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:id="@+id/txtTime"
+android:textStyle="bold"
+android:textSize="30sp"
+android:text=""
+android:gravity="center"
+    />
+  <TextView
+  android:layout_width="match_parent"
+  android:layout_height="wrap_content"
+  android:id="@+id/txtCelsius"
+  android:textStyle="bold"
+  android:textSize="80sp"
+  android:text=""
+  android:gravity="center"
+    />
+
+
+
 </android.support.design.widget.CoordinatorLayout>
