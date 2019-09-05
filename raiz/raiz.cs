@@ -3,6 +3,7 @@
 
 namespace Grupo0601.raiz
 {
+    // Validar librerias
     class Raiz
     {
         //
