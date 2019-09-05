@@ -119,7 +119,11 @@ namespace Grupo0601
                     pd.Dismiss();
                     return;
 }
-                openmap = JsonConvert.
+                openmap = JsonConvert.DeserializeObject<OpenMap> (result);
+                pd.Dismiss();
+
+                // control
+                activity.txtCity = activity.FindViewById<TextView>(Resource.Id.txtCity);
             }
 
 
